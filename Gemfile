@@ -20,6 +20,8 @@ gem 'will_paginate', '~> 3.1.0'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
+gem "openstax_swagger", github: 'openstax/swagger-rails', ref: '83f58aacfea4621d6d0b33d7652224d572fef082'
+gem "openstax_auth", github: 'openstax/auth-rails', ref: 'ed2d7da86ca226b93376955b9474c4cf115c611f'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
